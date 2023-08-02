@@ -1,6 +1,6 @@
 import requests
 
-key = 'xx'  # Replace with your actual API key
+api_key = 'xx'  # Replace with your actual API key
 file_url = 'https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9/resolve/main/sd_xl_base_0.9.safetensors' 
 headers = {'Authorization': f'Bearer {api_key}'}
 
